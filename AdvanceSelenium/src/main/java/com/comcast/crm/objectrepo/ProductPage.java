@@ -21,6 +21,12 @@ public class ProductPage {
 	{
 		return createProduct1;
 	}
+	@FindBy(xpath = "//span[.='Add Product']")
+	private WebElement createProduct2;
+	public WebElement getProduct2()
+	{
+		return createProduct2;
+	}
 	
 	@FindBy(name="productName")
 	private WebElement productName;
